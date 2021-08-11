@@ -1,0 +1,30 @@
+{
+  "name": "digital-marketing-backend",
+  "version": "1.0.0",
+  "description": "Sistema backend para gestão de leads e comunicação",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Marcelo Mussi",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5",
+    "ts-dotenv": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.5",
+    "@types/node": "^14.14.41",
+    "add": "^2.0.6",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "yarn": "^1.22.10"
+  }
+}
