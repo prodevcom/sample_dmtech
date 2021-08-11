@@ -5,7 +5,7 @@ import express from "express";
 import mongoose from "mongoose";
 
 // Controllers
-import {UserController} from "./constrollers/user.controller";
+import {UserController} from "./controllers/user.controller";
 import {appEnv} from "./constants/server.constants";
 import errorMiddleware from "./middleware/error.middleware";
 
